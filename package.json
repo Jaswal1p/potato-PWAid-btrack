@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Jaswal1p/potato-PWAid-btrack#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.3",
-    "mongoose": "^6.2.9"
+    "mongoose": "^6.2.9",
+    "morgan": "^1.10.0"
   }
 }
