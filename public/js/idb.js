@@ -1,4 +1,4 @@
-const { response } = require("express");
+// const { response } = require("express");
 
 // create variable to hold db connection
 let db;
@@ -48,7 +48,7 @@ function saveRecord(record) {
 
 function uploadTransaction() {
     // open a transaction on your db
-    const transaction = db.transaction(['new_transaction']);
+    const transaction = db.transaction(['new_transaction'], 'readwrite');
 
     // access your object store
     const budgetObjectStore = transaction.objectStore('new_transaction');

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Jaswal1p/potato-PWAid-btrack#readme",
   "dependencies": {
+    "chart.js": "^3.7.1",
     "compression": "^1.7.4",
     "express": "^4.17.3",
     "mongoose": "^6.2.9",
