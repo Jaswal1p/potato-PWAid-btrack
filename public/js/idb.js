@@ -44,6 +44,8 @@ function saveRecord(record) {
   
     // add record to your store with add method
     budgetObjectStore.add(record);
+
+    alert('A transactions has been placed in your budget!');
   }
 
 function uploadTransaction() {
@@ -83,7 +85,7 @@ function uploadTransaction() {
                    // clear all items in your store
                    budgetObjectStore.clear();
 
-                   alert('All saved transactions has been submitted');
+                   alert('All saved transactions has been submitted!');
                })
                .catch(err => {
                    console.log(err);
